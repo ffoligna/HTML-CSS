@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    background: #B7BBBD;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    height: calc(100% - 50px);
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #EFF8F3;
+}
+
+a:visited {
+    color: #EFF8F3;
+}
+
+a:hover {
+    color: #EFF8F3;
+    font-weight: 500;
+}
+
+.robotolight {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 5rem;
+}
+
+.robotothin {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+p.robotothin {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+#presentacion {
+    font-size: 2.5rem;
+    line-height: 2;
+}
+
+.experienciah2 {
+    font-size: 4rem;
+}
+
+.experienciah3 {
+    font-size: 2.5rem;
+}
+
+.tecnologiash3 {
+    font-size: 2.5rem;
+}
+
+.indexcolor {
+    color: #404E88;
+}
+
+.logoindex {
+    opacity: 80%;
+}
+
+.logoindex:hover {
+    opacity: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.roundimg {
+    border-radius: 50%;
+}
+
+.headerimg {
+    width: 45px;
+    height: 45px;
+}
+
+.headerbar {
+    position: sticky;
+    top: 0%;
+    margin: 0;
+    height: 50px;
+    background-color: #404E88;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.linkedinlogo {
+    font-size: 25px;
+    color: #EFF8F3;
+    opacity: 80%;
+}
+
+.linkedinlogo:hover {
+    opacity: 100%;
+}
+
+.logo {
+    width: 10%;
+    opacity: 80%;
+}
+
+.logo:hover {
+    opacity: 100%;
+}
+
+.navegacion {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;    
+}
+
+.linkedin {
+    width: 10%;
+    text-align: right;
+}
+
+.articuleblock {
+    background-color: #404E88;
+    color: #EFF8F3;
+    font-size: 2rem;
+    text-align: left;
+    height: 90%;
+    margin: 0 25px;
+    padding: 25px;
+    width: 100vw;
+    overflow: auto;
+}
+
+.tecnoblockup {
+    width: 48%;
+    margin: 1% 1%;
+    height: 55%;
+}
+
+.tecnoblockdown {
+    width: 98%;
+    margin: 1% 1% 1%;
+    height: 30%;
+}
+
