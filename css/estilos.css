@@ -43,6 +43,10 @@ a:hover {
     font-weight: 500;
 }
 
+.transitionbar a {
+    transition: all .3s ease-in-out;
+}
+
 .robotolight {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
@@ -85,6 +89,7 @@ p.robotothin {
 
 .logoindex {
     opacity: 80%;
+    transition: all .3s ease-in-out;
 }
 
 .logoindex:hover {
@@ -126,6 +131,7 @@ p.robotothin {
     font-size: 25px;
     color: #EFF8F3;
     opacity: 80%;
+    transition: all .3s ease-in-out;
 }
 
 .linkedinlogo:hover {
@@ -135,10 +141,15 @@ p.robotothin {
 .logo {
     width: 10%;
     opacity: 80%;
+    transition: all .3s ease-in-out;
 }
 
 .logo:hover {
     opacity: 100%;
+}
+
+.dropdown {
+    display: none;
 }
 
 .navegacion {
@@ -177,3 +188,182 @@ p.robotothin {
     height: 30%;
 }
 
+.iframe {
+    width: 300px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 425px) {
+    .robotolight {
+        font-size: 3rem;
+    }
+
+    .robotothin {
+        font-size: 1;
+    }
+
+    .logoindex {
+        width: 45vw;
+    }
+    
+    .headerbar {
+        justify-content: space-between;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;    
+    }
+    
+    .dropdown-btn {
+        border: none;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #B7BBBD;
+        min-width: 160px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, .2);
+        left: -50px;
+    }
+    
+    .dropdown-content a {
+        color: #404E88;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .navegacion {
+        display: none;
+    }
+
+    #presentacion {
+        font-size: 1.1rem;
+    }
+
+    .tecnologiash3 {
+        font-size: 1.5rem;
+    }
+
+    .tecnoblockup li {
+        font-size: 1.1rem;
+    }
+
+    .tecnoblockdown li {
+        font-size: 1.1rem;
+    }
+
+    .experienciah2 {
+        font-size: 2.5rem;
+    }
+
+    .experienciah3 {
+        font-size: 1.5rem;
+    }
+
+    .robotothin li {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (min-width: 426px) and (max-width: 960px) {
+    .robotolight {
+        font-size: 3rem;
+    }
+
+    .robotothin {
+        font-size: 1;
+    }
+
+    .logoindex {
+        width: 45vw;
+    }
+    
+    .headerbar {
+        justify-content: space-between;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;    
+    }
+    
+    .dropdown-btn {
+        border: none;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #B7BBBD;
+        min-width: 160px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, .2);
+        left: -50px;
+    }
+    
+    .dropdown-content a {
+        color: #404E88;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .navegacion {
+        display: none;
+    }
+
+    #presentacion {
+        font-size: 1.1rem;
+    }
+
+    .tecnologiash3 {
+        font-size: 1.5rem;
+    }
+
+    .tecnoblockup li {
+        font-size: 1.1rem;
+    }
+
+    .tecnoblockdown li {
+        font-size: 1.1rem;
+    }
+
+    .experienciah2 {
+        font-size: 2.5rem;
+    }
+
+    .experienciah3 {
+        font-size: 1.5rem;
+    }
+
+    .robotothin li {
+        font-size: 1.2rem;
+    }
+
+}
+
+/* @media only screen and (min-width: 961px) {
+
+} */
