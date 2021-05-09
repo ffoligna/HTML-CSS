@@ -19,10 +19,21 @@
         <div class="logo">
         <a href="index.html"><img class="roundimg headerimg" src="imágenes/foto-perfil.jpg" alt="Volver al principio"></a></div>
         
-        <div class="navegacion robotolight">
+        <div class="dropdown dropdown-btn">
+            <i class="fas fa-bars"></i>
+            <div class="dropdown-content">
+                <a href="presentacion.html">Presentación</a>
+                <a href="tecnologias.html">Tecnologías</a>
+                <a href="experiencia.html">Experiencia</a>
+                <a href="estudios.html">Estudios</a>
+                <a href="contacto.html"><strong>Contacto</strong></a>
+            </div>
+        </div>
+        <div class="navegacion robotolight transitionbar">
         <a href="presentacion.html">Presentación</a>
         <a href="tecnologias.html">Tecnologías</a>
         <a href="experiencia.html">Experiencia</a>
+        <a href="estudios.html">Estudios</a>
         <a href="contacto.html"><strong>Contacto</strong></a></div>
         
         <div class="linkedin">
@@ -32,9 +43,38 @@
 
     <main>
         <article class="articuleblock">
-            <p class="robotothin ">
-            Crear un formulario de contacto.
-            </p>
+            <h2 class="robotolight experienciah2">Formulario de contacto:</h2>
+
+            <form class="robotothin">
+                <fieldset>
+                    <label>
+                        <input type="radio" name="type">
+                        Empresa
+                    </label><br><br>
+                    <label>
+                        <input type="radio" name="type">
+                        Recruiter
+                    </label>
+            </fieldset>
+                <fieldset>
+                    <label>Nombre:
+                        <input type="username">
+                    </label><br><br>
+                    <label>Apellido:
+                        <input type="username">
+                    </label><br><br>
+                </fieldset>
+                <fieldset> Mensaje:
+                <textarea name="mensaje" cols="30" rows="10">
+                </textarea>
+                </fieldset><br>
+                    <label>
+                        <input type="submit">
+                    </label>
+
+            </form><br>
+            <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3258.961780745803!2d-58.3837644487865!3d-34.603738880363494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1620544721942!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
         </article>
     </main>
     
